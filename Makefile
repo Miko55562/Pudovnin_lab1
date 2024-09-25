@@ -10,7 +10,7 @@ build:
 	./truba
 
 clean:
-	rm -rf truba
+	rm -rf truba.o
 
 format:
 	clang-format -i -style=Google main.cpp
